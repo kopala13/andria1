@@ -1,0 +1,82 @@
+body{
+
+    background-color: #4000ff;
+    font-family: sans-serif;
+    text-align: center;
+    background: rgb(0,1,0);
+background: radial-gradient(circle, rgba(0,1,0,1) 0%, rgba(43,20,87,1) 26%, rgba(202,24,233,1) 100%);
+}
+p{
+    color:white;
+    padding-bottom:30px;
+    border-bottom:1px solid white;
+}
+p:hover{
+    padding:10px;
+    position: relative;
+    top:5px;
+    box-shadow:0px 5px 5px 0px black
+}
+h1{
+    text-align: center;
+    color:black;
+}
+ul{
+    color:white;
+}
+h2{
+    font-size:25px;
+    color:black;
+    box-shadow: 5px 5px 10px white;
+}
+a{
+    text-decoration: none;
+    border-radius: 10px;
+    border:2px solid green;
+    padding:7px;
+    background-image: linear-gradient(lightgreen,blue);
+    margin-left:5px;
+}
+h1{
+    margin-bottom:50px;
+}
+h1,h2{
+    background: linear-gradient(#c581d0 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: .4s, background-position 0s;
+  }
+  h1:hover {
+    --p: 100%;
+    color: #fff;
+    font-size: 50px;
+  }
+  h2:hover {
+    --p: 100%;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+h3{
+   color:#99ccff;  
+}
+
+
+ div{
+
+    }
+.img{
+height: 200px;
+width: 300px;
+}
+.img2{
+ height: 200px;
+ width: 300px;
+}
+img{
+    border:1px solid white;
+}
+nav a,a{
+    background: radial-gradient( rgb(111, 0, 142) 0%, rgb(115, 2, 115) 26%, rgb(95, 2, 112) 100%);
+    color:black;
+    font-size: 20px;
+    border:2px solid black
+}
